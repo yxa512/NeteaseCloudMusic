@@ -1,0 +1,49 @@
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.center {
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-item {
+	flex: 1;
+}
+
+.text_over {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.text_over_2line {
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.flex_over_w {
+	width: 0;
+}
+
+.wm {
+	width: 100%;
+}
+
+.hm {
+	height: 100%;
+}
+
+.translucent {
+	background: rgba(0, 0, 0, 0.6);
+}
